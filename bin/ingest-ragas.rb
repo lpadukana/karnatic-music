@@ -2,7 +2,7 @@ require 'yaml'
 require 'json'
 require 'i18n'
 
-h = YAML.load_file 'ragas.raw.yml'
+h = YAML.load_file 'data/ragas.raw.yml'
 
 last_melakarta = nil
 swaras = YAML.load_file('swaras.yml').keys
