@@ -19,9 +19,20 @@ SWARAS = [
   { 'name' => 'Kakali Nishada (काकली निषाद)', 'shortname' => 'Ni', 'key' => 'N3', 'note' => 'B', 'halfsteps' => 11 },
 ]
 
-KEY2SWARA = SWARAS.reduce({}) do |map, swara|
-  map.merge(swara['key'] => swara)
-end
+KEY2SWARA = Hash[
+  SWARAS.map do |swara_hash|
+    key = swara_hash['key']
+    value = {
+      'name' => swara_hash['name'].gsub(/\s*\(.+\)/, ''),
+      'sanskrit_name' => swara_hash['name'].gsub(/^.*\(/, '').gsub(/\)$/, ''),
+      'shortname' => swara_hash['shortname'],
+      'key' => swara_hash['key'],
+      'note' => swara_hash['note'],
+      'halfsteps' => swara_hash['halfsteps']
+    }
+    [key, value]
+  end
+]
 
-File.open('swaras.yml', 'w') { |f| f.write KEY2SWARA.to_yaml }
+File.open('swaras.yml', 'w') { |f| f.write KEY2SWARA.to_yaml; puts KEY2SWARA.to_yaml }
 
