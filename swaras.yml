@@ -1,0 +1,113 @@
+---
+S:
+  name: Shadja
+  sanskrit_name: "षड्ज"
+  shortname: Sa
+  key: S
+  note: C
+  halfsteps: 0
+R1:
+  name: Shuddha Rishabha
+  sanskrit_name: "शुद्ध ऋषभ"
+  shortname: Ri
+  key: R1
+  note: D♭
+  halfsteps: 1
+R2:
+  name: Chatushruti Rishabha
+  sanskrit_name: "चतुश्रुति ऋषभ"
+  shortname: Ri
+  key: R2
+  note: D
+  halfsteps: 2
+G1:
+  name: Shuddha Gandhara
+  sanskrit_name: "शुद्ध गान्धार"
+  shortname: Ga
+  key: G1
+  note: D
+  halfsteps: 2
+R3:
+  name: Shatshruti Rishabha
+  sanskrit_name: "षट्श्रति ऋषभ"
+  shortname: Ri
+  key: R3
+  note: E♭
+  halfsteps: 3
+G2:
+  name: Sadharana Gandhara
+  sanskrit_name: "साधारण गान्धार"
+  shortname: Ga
+  key: G2
+  note: E♭
+  halfsteps: 3
+G3:
+  name: Antara Gandhara
+  sanskrit_name: "अन्तर गान्धार"
+  shortname: Ga
+  key: G3
+  note: E
+  halfsteps: 4
+M1:
+  name: Shuddha Madhyama
+  sanskrit_name: "शुद्ध मध्यम"
+  shortname: Ma
+  key: M1
+  note: F
+  halfsteps: 5
+M2:
+  name: Prati Madhyama
+  sanskrit_name: "प्रति मध्यम"
+  shortname: Ma
+  key: M2
+  note: F♯
+  halfsteps: 6
+P:
+  name: Panchama
+  sanskrit_name: "पञ्चम"
+  shortname: Pa
+  key: P
+  note: G
+  halfsteps: 7
+D1:
+  name: Shuddha Dhaivata
+  sanskrit_name: "शुद्ध धैवत"
+  shortname: Dha
+  key: D1
+  note: A♭
+  halfsteps: 8
+D2:
+  name: Chatushruti Dhaivata
+  sanskrit_name: "चतुश्रति धैवत"
+  shortname: Dha
+  key: D2
+  note: A
+  halfsteps: 9
+N1:
+  name: Shuddha Nishada
+  sanskrit_name: "शुद्ध निषाद"
+  shortname: Ni
+  key: N1
+  note: A
+  halfsteps: 9
+D3:
+  name: Shatshruti Dhaivata
+  sanskrit_name: "षट्श्रुति धैवत"
+  shortname: Dha
+  key: D3
+  note: B♭
+  halfsteps: 10
+N2:
+  name: Kaisiki Nishada
+  sanskrit_name: "कैशिकी निषाद"
+  shortname: Ni
+  key: N2
+  note: B♭
+  halfsteps: 10
+N3:
+  name: Kakali Nishada
+  sanskrit_name: "काकली निषाद"
+  shortname: Ni
+  key: N3
+  note: B
+  halfsteps: 11
