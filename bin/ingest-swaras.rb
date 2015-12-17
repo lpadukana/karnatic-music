@@ -1,4 +1,5 @@
 require 'yaml'
+require 'json'
 
 SWARAS = [
   { 'name' => 'Shadja (षड्ज)', 'shortname' => 'Sa', 'key' => 'S', 'note' => 'C', 'halfsteps' => 0 },
@@ -34,5 +35,6 @@ KEY2SWARA = Hash[
   end
 ]
 
-File.open('swaras.yml', 'w') { |f| f.write KEY2SWARA.to_yaml; puts KEY2SWARA.to_yaml }
+File.open('swaras.yml', 'w') { |f| f.write KEY2SWARA.to_yaml }
+File.open('swaras.json', 'w') { |f| f.write KEY2SWARA.to_json }
 
