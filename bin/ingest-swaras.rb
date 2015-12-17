@@ -36,5 +36,5 @@ KEY2SWARA = Hash[
 ]
 
 File.open('swaras.yml', 'w') { |f| f.write KEY2SWARA.to_yaml }
-File.open('swaras.json', 'w') { |f| f.write KEY2SWARA.to_json }
+File.open('swaras.json', 'w') { |f| f.write JSON.pretty_generate(KEY2SWARA) }
 
